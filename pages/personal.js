@@ -3,7 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import MainMenu from '../components/main-menu/main-menu'
 
-export default function Home() {
+export default function OpenSource() {
   return (
 
     <Layout home>
@@ -13,11 +13,11 @@ export default function Home() {
 
       <MainMenu></MainMenu>
 
-      <section className={utilStyles.headingMd}>
-        <p>Hi, I'm Andre. I'm a software developer with more than 15 years
-          of experience. My main profissional areas are web development and back-end.
-          In my free time, I enjoy creating indie games and music.</p>
+      <section className={utilStyles.center}>
+        Comming soon
       </section>
+      
     </Layout>
+
   )
 }
