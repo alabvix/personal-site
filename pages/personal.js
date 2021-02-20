@@ -19,8 +19,7 @@ export default function OpenSource() {
       </section>
 
       <br></br>
-      <hr></hr>
-
+      
       <LinkBar></LinkBar>
       
     </Layout>

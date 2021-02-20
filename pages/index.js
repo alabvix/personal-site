@@ -17,13 +17,12 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p>Hi, I'm Andre. I'm a software developer with more than 15 years
           of experience. My main profissional areas are web development and back-end.
-          In my free time I enjoy creating indie games, music and wrting some 
+          In my free time I enjoy creating indie games, music and writing some 
           sci-fi/fantasy stuff.</p>
       </section>
 
       <br></br>
-      <hr></hr>
-
+      
       <LinkBar></LinkBar>
       
     </Layout>

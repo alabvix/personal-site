@@ -10,6 +10,7 @@ import { faSoundcloud } from "@fortawesome/free-brands-svg-icons";
 
 export default function LinkBar(){
     return (
+        <center>
         <ul class="mainMenu">
             <li>
                 <a href="https://www.linkedin.com/in/alabvix/" target="_blank" title="LinkedIn">
@@ -35,7 +36,7 @@ export default function LinkBar(){
                 <a href="https://www.facebook.com/profile.php?id=100000021630957" target="_blank" title="Facebook">
                     <FontAwesomeIcon icon={faFacebookSquare} size="2x"></FontAwesomeIcon></a>
             </li>
-            
         </ul>
+        </center>
     )
 }

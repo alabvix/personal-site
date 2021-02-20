@@ -13,7 +13,7 @@ export default function MainMenu(){
                 <Link href="personal"><a>Personal Projects</a></Link>
             </li>
             <li>
-                <Link href="personal"><a>Contact me</a></Link>
+                <a href="mailto:alab.home@gmail.com">Contact me</a>
             </li>
         </ul>
     )

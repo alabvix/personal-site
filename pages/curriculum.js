@@ -30,8 +30,7 @@ export default function Home() {
       </ul>
 
       <br></br>
-      <hr></hr>
-
+      
       <LinkBar></LinkBar>
       
     </Layout>
