@@ -1,20 +1,19 @@
 import Link from 'next/link'
-import styles from './main-menu.module.css'
 
 export default function MainMenu(){
     return (
-        <ul className={styles.mainMenu}>
+        <ul class="mainMenu">
             <li>
                 <Link href="/"><a>Home</a></Link>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/alabvix/" target="_blank">LinkedIn</a>
-            </li>
-            <li>
-                <Link href="opensource"><a>Open source</a></Link>
+                <Link href="curriculum">Curriculum Vitae</Link>
             </li>
             <li>
                 <Link href="personal"><a>Personal Projects</a></Link>
+            </li>
+            <li>
+                <Link href="personal"><a>Contact me</a></Link>
             </li>
         </ul>
     )

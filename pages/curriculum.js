@@ -15,11 +15,17 @@ export default function Home() {
       <MainMenu></MainMenu>
 
       <section className={utilStyles.headingMd}>
-        <p>Hi, I'm Andre. I'm a software developer with more than 15 years
-          of experience. My main profissional areas are web development and back-end.
-          In my free time I enjoy creating indie games, music and wrting some 
-          sci-fi/fantasy stuff.</p>
+        
       </section>
+
+      <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>
+              <a href="https://github.com/alabvix" target="_blank">Curriculum in English</a>
+          </li>
+          <li className={utilStyles.listItem}>
+              <a href="https://gitlab.com/users/alabvix/groups" target="_blank">Curriculum em Português do Brasil</a>
+          </li>
+      </ul>
 
       <br></br>
       <hr></hr>

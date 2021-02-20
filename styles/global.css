@@ -25,3 +25,15 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.mainMenu ul {
+  list-style-type: none;
+  
+}
+
+.mainMenu li {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  
+}
