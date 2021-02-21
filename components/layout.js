@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import LinkBar from '../components/link-bar/link-bar'
 
 const name = 'André Barreto'
 export const siteTitle = 'Andre Barreto'
@@ -31,7 +32,7 @@ export default function Layout({ children, home }) {
             <Image
               priority
               unoptimized={true}
-              src="/images/foto.jpg"
+              src="/images/profile.png"
               className={utilStyles.borderCircle}
               height={200}
               width={154}
@@ -46,7 +47,7 @@ export default function Layout({ children, home }) {
                 <Image
                   priority
                   unoptimized={true}
-                  src="/images/foto.jpg"
+                  src="/images/profile.png"
                   className={utilStyles.borderCircle}
                   height={200}
                   width={154}
@@ -65,6 +66,9 @@ export default function Layout({ children, home }) {
       
       <main>{children}</main>
       
+      <footer className={styles.footer}>
+        <LinkBar></LinkBar> 
+      </footer>
       
       {!home && (
         <div className={styles.backToHome}>

@@ -20,6 +20,10 @@ a {
 a:hover {
   text-decoration: underline;
 }
+a:active {
+  color: white;
+  background-color: #0070f3;
+}
 
 img {
   max-width: 100%;
@@ -37,3 +41,5 @@ img {
   padding: 10px;
   
 }
+
+
